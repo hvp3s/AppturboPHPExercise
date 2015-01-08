@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="src/autoload.php"
+         backupGlobals="false"
+         colors="true"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="PhpExerciseSolution Test Suite">
+            <directory suffix=".php">./test/PhpExerciseSolution/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
